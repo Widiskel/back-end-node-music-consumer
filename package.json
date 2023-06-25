@@ -1,10 +1,11 @@
 {
-  "name": "Song-queue-consumer",
+  "name": "song-queue-consumer",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/consumer.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
     "amqplib": "^0.10.3",
     "dotenv": "^16.3.1",
     "nodemailer": "^6.9.3",
+    "nodemon": "^2.0.22",
     "pg": "^8.11.0"
   }
 }
